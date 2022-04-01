@@ -85,7 +85,7 @@ class SwaggervelController extends Controller
             ]);
 
             $filename = $docDir . '/api-docs.json';
-            file_put_contents($filename, $swagger);
+            $swagger->saveAs($filename);
         }
     }
 
