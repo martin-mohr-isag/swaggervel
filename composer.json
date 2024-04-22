@@ -15,7 +15,7 @@
     ],
     "require": {
         "php": ">=7.2",
-		"illuminate/support": "^5.0|^6.0|^7.0|^8.0|^9.0",
+		"illuminate/support": "^5.0|^6.0|^7.0|^8.0|^9.0|^10.0",
 		"swagger-api/swagger-ui": "^3.18",
 		"zircote/swagger-php": "^3.0"
     },
